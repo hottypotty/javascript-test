@@ -11,7 +11,7 @@
     <h1> Javascript</h1>
 
 
-
+    <!-- let and Const Variable -->
     <!-- <script>
 
         // Let Variable
@@ -63,6 +63,7 @@
     </script> -->
 
 
+    <!-- Variable Naming -->
     <!-- <script>
         // let admin, name;
 
@@ -81,7 +82,9 @@
         alert(currentUserName);
     </script> -->
 
-    <p id="demo"></p>
+
+    <!-- Javascript Arithmetic -->
+    <!-- <p id="demo"></p>
     <script>
         // let x = 100 + 50;
         // document.getElementById("demo").innerHTML = x;  //Output to HTML Page
@@ -155,7 +158,197 @@
         // let x = 100 + 50 - 3 ; Addition & Subtraction or Subtraction & Addition - Left to Right
         // let x = 100 / 50 * 3; Multiplication & Division or Division & Multiplication - Left to Rights
         // document.getElementById("demo").innerHTML = x;
+    </script> -->
+
+
+    <!--  Javascript Numbers-->
+    <!-- <p id="demo"></p>
+    <script>
+
+        // let x = 3.14;
+        // let y = 3;
+        // document.getElementById("demo").innerHTML = x + "</br>" + y;
+
+        // let x = 123e5;
+        // let y =123e-5;
+        // document.getElementById("demo").innerHTML = x + "</br>" + y;
+
+        // let x = 999999999999999;
+        // let y = 9999999999999999;
+        // document.getElementById("demo").innerHTML = x + "</br>" + y;
+
+
+
+    </script> -->
+
+    <!-- Floating Precision -->
+    <!-- <p id="sample1"></p>
+    <p id="sample2"></p>
+    <script>
+        // Floating Precision
+        let x = 0.2 + 0.1;
+        document.getElementById("sample1").innerHTML = "0.2 + 0.1 = " + x;
+
+        let y = (0.2 * 10 + 0.1 * 10) / 10;
+        document.getElementById("sample2").innerHTML = "(0.2*10 + 0.1 *10)/10 = " + y;
+
+    </script> -->
+
+
+    <!-- Adding Numbers and Strings -->
+    <!-- <p id="demo"></p>
+     <p id="demo1"></p>
+     <script>
+        // Numbers
+        let x =10;
+        let y=20;
+        let z = x+y;
+        document.getElementById("demo").innerHTML = z;
+        document.getElementById("demo1").innerHTML = x + "" + y; // Concatenate
+     </script> -->
+
+    <p id="demo"></p>
+    <!-- <script>
+        // Strings
+        // let  x= "10";
+        // let y = "20";
+        // let z = x+y;
+        // document.getElementById("demo").innerHTML =z ;
+
+
+        // Strings Concatenate
+        // let x = "10";
+        // let y = 20;
+        // let z = x + y ;
+        // document.getElementById("demo").innerHTML = z;
+
+
+        // let x = 10;
+        // let y = 20;
+        // let z = "The result is: " + x + y;
+        // document.getElementById("demo").innerHTML = z;
+
+        // The 1st two numbers are added and the 3rd one is not because it is a string
+        // let x = 10;
+        // let y = 20;
+        // let z = "30";
+        // let result = x + y +z;
+        // document.getElementById("demo").innerHTML = result;
+
+
+        // Numeric Strings
+        // let x = "100";
+        // let y = "10";
+        // let z = x / y ; // Use Division Operator to convert strings to number
+        // document.getElementById("demo").innerHTML = z ;
+
+        // let x = "100";
+        // let y = "10";
+        // let z = x * y ; // Use Multiplication Operator to convert strings to number
+        // document.getElementById("demo").innerHTML = z ;
+
+
+        // let x = "100";
+        // let y = "10";
+        // let z = x - y ; // Use Subtraction Operator to convert strings to number
+        // document.getElementById("demo").innerHTML = z ;
+
+
+        // let x = "100";
+        // let y = "10";
+        // let z = x + y ; // Addition operator are used in addition and concatenation
+        // document.getElementById("demo").innerHTML = z ;
+
+
+        // Nan - Not a Number
+        // let x = 100 / "Apple";
+        // document.getElementById("demo").innerHTML=x;
+
+
+        // let x = 100 / "10";
+        // document.getElementById("demo").innerHTML=x;
+
+        // let x = 100 / "Apple";
+        // document.getElementById("demo").innerHTML= isNaN(x);
+
+        // let x = NaN;
+        // let y = "5";
+        // let z = x+ y;
+        // document.getElementById("demo").innerHTML = z;
+
+        // let x = NaN;
+        // document.getElementById("demo").innerHTML = typeof x;
+    </script> -->
+
+    <script>
+        // Infinity
+        // let myNumber = 2;
+        // let txt = "";
+        // while (myNumber !=Infinity){
+        //     myNumber = myNumber *myNumber;
+        //     txt = txt + myNumber + "<br>";
+        // }
+
+        // document.getElementById("demo").innerHTML = txt;
+
+        // let x = 2 / 0;
+        // let y = -2 / 0;
+        // document.getElementById("demo").innerHTML = x + "<br>" + y;
+
+
+        // document.getElementById("demo").innerHTML = typeof Infinity;
+
+        // Hexadecimal
+        // let x = 0xFF;
+        // document.getElementById("demo").innerHTML = "0xFF = " + x;
+
+        // let myNumber = 32;
+        // document.getElementById("demo").innerHTML =
+        //     "Decimal 32 = " + "<br><br>" +
+
+        //     "Hexatrigesimal (base 36): " + myNumber.toString(36) + "<br>" +
+        //     "Duotrigesimal (base 32): " + myNumber.toString(32) + "<br>" +
+        //     "Hexadecimal (base 16): " + myNumber.toString(16) + "<br>" +
+        //     "Duodecimal (base 12): " + myNumber.toString(12) + "<br>" +
+        //     "Decimal (base 10): " + myNumber.toString(10) + "<br>" +
+        //     "Octal (base 8): " + myNumber.toString(8) + "<br>" +
+        //     "Binary (base 2): " + myNumber.toString(2);
+
+
+        // Checking the Data Type by using "typeof"
+        // x is a number
+        // let x = 123;
+        // // y is a Number object
+        // let y = new Number(123);
+        // document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+
+
+        // x is a number
+        // let x = 500;
+        // // y is an object
+        // let y = new Number(500);
+        // document.getElementById("demo").innerHTML = (x == y);
+
+        // // x is a number
+        // let x = 500;
+        // // y is an object
+        // let y = new Number(500);
+        // document.getElementById("demo").innerHTML = (x === y);
+
+        // x is an object
+        // let x = new Number(500);
+        // // y is an object
+        // let y = new Number(500);
+        // document.getElementById("demo").innerHTML = (x == y);
+
+
+        // x is an object
+        // let x = new Number(500);
+        // // y is an object
+        // let y = new Number(500);
+        // document.getElementById("demo").innerHTML = (x === y);
     </script>
+
 </body>
 
 </html>
