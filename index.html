@@ -423,17 +423,17 @@
 
 
     <!-- Comparison Operators -->
-    <button>Start Machine</button>
-    <p>The machine is stopped</p>
+    <!-- <button>Start Machine</button>
+    <p>The machine is stopped</p> -->
 
-    <script>
+    <!-- <script>
         const btn = document.querySelector("button");
         const txt = document.querySelector("p");
 
-        btn.addEventListener("click",updateBtn);
-        
-        function updateBtn(){
-            if (btn.textContent === "Start Machine"){
+        btn.addEventListener("click", updateBtn);
+
+        function updateBtn() {
+            if (btn.textContent === "Start Machine") {
                 btn.textContent = "Stop Machine";
                 txt.textContent = "The machine has started!";
             } else {
@@ -441,7 +441,98 @@
                 txt.textContent = "The machine is stopped.";
             }
         }
+    </script> -->
+
+
+    <!-- TEST YOUR SKILLS -->
+
+
+    <!-- Math 1 -->
+    <!-- <script>
+       
+
+        // let myNumber1 = 4;
+        // let myNumber2 = 4;
+        // let myNumber3 = 2;
+        // let myNumber4 = 8;
+
+        // let a = myNumber1 + myNumber2;
+        // let b = myNumber4 - myNumber3;
+        // let finalResult = a * b;
+        // console.log(finalResult);
+
+    
+    </script> -->
+
+    <!-- Math 2 -->
+    <!-- <p id="result"></p>
+     <p id="datatype"></p>
+    <script>
+
+        // Final result should be 4633.33
+        // Add/update your code here
+
+        let result = 7 + 13 / 9 + 7;
+        let result2 = 100 / 2 * 6;
+        let finalResult = result * result2;
+        let finalNumber = Number(finalResult);
+
+        console.log(finalResult.toFixed(2));
+        console.log(typeof finalNumber);
+
+        document.getElementById("result").innerHTML=finalResult.toFixed(2);
+        document.getElementById("datatype").innerHTML=typeof finalNumber;
+
+    </script> -->
+
+    <!-- Math 3 -->
+    <script>
+        // Statement 1: The elephant weighs less than the mouse
+        const eleWeight = 1000;
+        const mouseWeight = 2;
+
+        // Statement 2: The Ostrich is taller than the duck
+        const ostrichHeight = 2;
+        const duckHeight = 0.3;
+
+        // Statement 3: The two passwords match
+        const pwd1 = 'stromboli';
+        const pwd2 = 'stROmBoLi';
+
+
+        let weightComparison = "";
+        let heightComparison = "";
+        let pwdMatch = "";
+
+
+        if (eleWeight > mouseWeight) {
+            weightComparison = "True"
+            console.log(weightComparison);
+        } else {
+            weightComparison = "False"
+            console.log(weightComparison)
+        }
+
+
+        if (ostrichHeight > duckHeight) {
+            heightComparison = "True";
+            console.log(heightComparison);
+        } else {
+            heightComparison = "False";
+            console.log(heightComparison);
+        }
+
+        if (pwd1 === pwd2) {
+            pwdMatch = "True";
+            console.log(pwdMatch);
+        } else {
+            pwdMatch = "False";
+            console.log(pwdMatch);
+        }
+     
     </script>
+
+
 </body>
 
 </html>
